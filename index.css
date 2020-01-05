@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+body, html{
+    font-family: Montserrat, SpoqaHanSans;
+    color: #2B2D36;
+    letter-spacing: 0;
+    width: auto;
+    height: 100%;
+}
+
+body{
+    margin: 0 60px;
+}
+
+.header{
+    height: 70px;
+    align-items: center;
+}
+.header .title{
+    display:flex;
+    float: left;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 800;
+}
+.header .menu{
+    display:flex;
+    float: right;
+    font-weight: 600;
+    font-size: 14px;
+    color: #525463;
+    line-height: 24px;
+}
+.button{
+    padding: 6px 8px;
+    border-radius: 3px;
+}
+.button:hover{
+    background: rgba(133,136,153,0.24);
+    cursor: pointer;
+}
+.button:active{
+    background: #2B2D36;
+    color: white;
+}
+.focus{
+    padding: 6px 8px;
+    border-radius: 3px;
+    background: #2B2D36;
+    color: white;
+}

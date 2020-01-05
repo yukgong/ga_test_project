@@ -1,0 +1,38 @@
+.intro{
+    position: relative;
+    width: 100%;
+    height: calc(100% - (70px + 118px));
+}
+.slices{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 50%;
+    max-height: 410px;
+    width: 70%;
+    display: flex;
+}
+.main_slice{
+    transition: all 0.3s;
+    cursor: pointer;
+    width: 20%;
+    height: 100%;
+    z-index: 1;
+}
+.main_slice_hover{
+    transition: all 0.3s;
+    cursor:pointer;
+    z-index: 2;
+    transform: scale(1.2);
+}
+.more{
+    text-align: center;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 24px;
+}
+.arrow{
+    width: 30px;
+    margin-top: 24px;
+}

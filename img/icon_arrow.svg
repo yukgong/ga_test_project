@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60 (88103) - https://sketch.com -->
+    <title>01 Icon/22 arrow</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="10.541 9.6211 8.75 11.4121 8.75 2.0001 8.65 2.0001 7.35 2.0001 7.25 2.0001 7.25 11.4121 5.459 9.6211 4.541 10.5411 8 14.0001 11.459 10.5411"></polygon>
+    </defs>
+    <g id="01-Icon/22-arrow" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <use id="Mask" fill="#000000" xlink:href="#path-1"></use>
+        <g id="00-fill-color/01-black" mask="url(#mask-2)" fill="#000000">
+            <rect id="Rectangle-15" x="0" y="0" width="16" height="16" rx="3"></rect>
+        </g>
+    </g>
+</svg>
